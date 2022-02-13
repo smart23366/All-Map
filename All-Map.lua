@@ -12,4 +12,6 @@ elseif PlacId == 6329844902 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/smart23366/KL-2/main/LP.lua"))()
 else
 	game.Players.LocalPlayer:kick("Game-No-script")
+	wait(1)
+	game:Shutdown()
 end
